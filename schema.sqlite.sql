@@ -1,5 +1,5 @@
--- Схема базы данных гостевой книги.
--- Применяется скриптом init_db.py при инициализации БД на сервере.
+-- Схема для SQLite (backend = sqlite в config.ini).
+-- Применяется скриптом init_db.py.
 
 CREATE TABLE IF NOT EXISTS entries (
     id         INTEGER PRIMARY KEY AUTOINCREMENT,

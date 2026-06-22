@@ -1,6 +1,11 @@
 # Виртуальное окружение
 venv/
 .venv/
+.venvtest/
+
+# Файлы IDE
+.idea/
+.vscode/
 
 # Кэш Python
 __pycache__/
